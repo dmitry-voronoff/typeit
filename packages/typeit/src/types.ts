@@ -28,7 +28,7 @@ export interface Options {
   lifeLike?: boolean;
   loop?: boolean;
   loopDelay?: number | number[];
-  nextStringDelay?: number | number[];
+  nextStringDelay?: number | [number, number];
   speed?: number;
   startDelay?: number;
   startDelete?: boolean;
